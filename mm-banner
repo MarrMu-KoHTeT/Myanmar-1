@@ -54,12 +54,14 @@ echo -e $YL"      ------☆☆☆------($RD  T E R M U X  $GR)------☆☆☆---
 
 figlet -f "     Do u Love Myanmar" | lolcat
 echo " "
-echo -e $PP"           《$GR T$gYL E$RD R$GY M$LBL U$GR X$white of$WH M$BL Y$GR A$PP N$GR M$YL A$WH I$RD 》"
+echo -e $PP"           《$GR T$gYL E$RD R$GY M$LBL U$GR X$WH of$RD M$BL Y$GR A$PP N$LBL M$YL A$WH R$GY 》"
 echo
 echo -e ""
 echo -e $GR " Enter Your Name : "
 read name
+
 echo " "
+
 cd  /data/data/com.termux/files/usr/etc
 
 rm bash.bashrc
