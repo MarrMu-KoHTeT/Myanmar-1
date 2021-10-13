@@ -49,6 +49,8 @@ echo -e "\e[1m\e[33m\
 "
 echo ""
 sleep 1.0
+pip install lolcat
+gem install lolcat
 
 echo " "
 echo -e $YL"      ------☆☆☆------($RD  T E R M U X  $GR)------☆☆☆------"
