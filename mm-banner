@@ -51,13 +51,12 @@ echo ""
 sleep 1.0
 pip install lolcat
 gem install lolcat
-
 echo " "
 echo -e $YL"      ------☆☆☆------($RD  T E R M U X  $GR)------☆☆☆------"
 
-figlet -f "     Do u Love Myanmar" | lolcat
+
 echo " "
-echo -e $PP"           《$GR T$gYL E$RD R$GY M$LBL U$GR X$WH of$RD M$BL Y$GR A$PP N$LBL M$YL A$WH R$GY 》"
+echo -e $PP"           《$GR T$gYL E$RD R$GY M$LBL U$GR X$WH of$RD M$BL Y$GR A$PP N$LBL M$YL A$BL R$GY 》"
 echo
 echo -e ""
 echo -e $GR " Enter Your Name : "
@@ -85,15 +84,24 @@ cd $HOME
 
 cd Myanmar-1
 
+pkg install figlet -y
+echo ""
+clear
+echo "                   "DONE  BRO  ENJOY  | lolcat
 echo " "
-        figlet Good Job !| lolcat
-        figlet Love u All... 
-
-        echo -e $GR "Do u know MarMu..."
-        echo -e $LBL "please reboot the termux application or take a new session"
-" | lolcat
 sleep 0.2
+clear
+sleep 0.2
+figlet -f big ' THANKS ' | lolcat
+figlet -f big '  FOR   ' | lolcat
+figlet -f big ' WAITING ' | lolcat
 
+echo "  REBOOT YOUR TERMUX
+ " | lolcat
+sleep 0.2
+echo " "
+sleep 1.0
 cd $HOME
-exit 
+exit
+
 
