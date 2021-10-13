@@ -30,7 +30,7 @@ pkg install figlet -y
 gem install lolcat
 
 cd $HOME
-cd Myanmar
+cd Myanmar-1
 ls
 
 echo
@@ -70,7 +70,7 @@ ls
 
 cd $HOME
 
-cd Myanmar
+cd Myanmar-1
 
 cp bash.bashrc /data/data/com.termux/files/usr/etc
 
@@ -78,7 +78,7 @@ ls
 
 cd $HOME
 
-cd Myanmar
+cd Myanmar-1
 
 ls
 
