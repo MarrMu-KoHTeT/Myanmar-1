@@ -87,14 +87,13 @@ cd Myanmar-1
 
 echo " "
         figlet Good Job !| lolcat
-        figlet -f gay Love u All... 
+        figlet Love u All... 
+
         echo -e $GR "Do u know MarMu..."
         echo -e $LBL "please reboot the termux application or take a new session"
 " | lolcat
 sleep 0.2
 
-echo " "
-sleep 1.0
-
 cd $HOME
 exit 
+
