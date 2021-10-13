@@ -64,7 +64,7 @@ echo " "
 
 cd  /data/data/com.termux/files/usr/etc
 
-rm bash.bashrc
+rm -rf bash.bashrc
 
 ls
 
