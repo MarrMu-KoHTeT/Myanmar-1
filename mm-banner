@@ -80,18 +80,9 @@ cd $HOME
 
 cd Myanmar-1
 
-ls
-
-echo -e "\e[1m\e[33m\
- __  __            __  __
-|  \/  | __ _ _ __|  \/  |_   _
-| |\/| |/ _` | '__| |\/| | | | |
-| |  | | (_| | |  | |  | | |_| |
-|_|  |_|\__,_|_|  |_|  |_|\__,_|
-"
 echo " "
         figlet Good Job !| lolcat
-        toilet -f gay Love u All... 
+        figlet -f gay Love u All... 
         echo -e $GR "Do u know MarMu..."
         echo -e $LBL "please reboot the termux application or take a new session"
 " | lolcat
