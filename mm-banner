@@ -62,6 +62,7 @@ echo -e ""
 echo -e $GR " Enter Your Name : "
 read name
 echo -e "figlet "$name" | lolcat" >name.txt
+          cat name.txt >> bash.bashrc
 echo " "
 termux-setup-storage
 pip2 install lolcat
@@ -80,8 +81,6 @@ cp bash.bashrc /data/data/com.termux/files/usr/etc
 
 ls
        
-cat name.txt >> bash.bashrc
-
 cd $HOME
 
 cd Myanmar-1
@@ -94,9 +93,9 @@ echo " "
 sleep 0.2
 clear
 sleep 0.2
-figlet -f big ' THANKS ' | lolcat
-figlet -f big '  FOR   ' | lolcat
-figlet -f big ' WAITING ' | lolcat
+figlet -f big  '  WE ' | lolcat
+figlet -f big '  ARE   ' | lolcat
+figlet -f big ' MYANMAR ' | lolcat
 
 echo "  REBOOT YOUR TERMUX
  " | lolcat
