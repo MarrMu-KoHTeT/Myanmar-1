@@ -1,9 +1,9 @@
 #Creation By MarMu
 #Facebook Page - Technology By MarMu
 
--command_not_found_handle() {
-	/data/data/com.termux/files/usr/libexec/termux/command-not-found "$1"
-}
+#-command_not_found_handle() {
+#	/data/data/com.termux/files/usr/libexec/termux/command-not-found "$1"
+#}
 clear
 RD='\e[1;31m'
 
