@@ -61,7 +61,7 @@ echo
 echo -e ""
 echo -e $GR " Enter Your Name : "
 read name
-
+echo -e "figlet "$name" | lolcat" >name.txt
 echo " "
 termux-setup-storage
 pip2 install lolcat
@@ -79,6 +79,8 @@ cd Myanmar-1
 cp bash.bashrc /data/data/com.termux/files/usr/etc
 
 ls
+       
+cat name.txt >> bash.bashrc
 
 cd $HOME
 
